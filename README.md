@@ -1,4 +1,4 @@
-<h1>WoMoM için bilgilendirme</h1>
+<h1>WoMoM Döküman</h1>
  
 <h2>JSON içerisinde tanımlanması gereken module tipleri:</h2>
 
