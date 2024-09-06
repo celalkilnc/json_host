@@ -61,29 +61,29 @@ Sayfada modül sınırı yoktur listeye gerektiği kadar eklenebilir.
 ```
 #### Video içerikli mödül örneği
 ```json
-        {
-            "type": 1,
-            "label": "Education Video",
-            "url": "https://youtu.be/RTj7_HMCBeI?si=vsBJ6F_-cqkhfYHC",
-            "description": "Kadın okuryazarlığı, kadınların eğitim ve bilgiye erişimini artırarak toplumsal eşitliği destekler."
-        }
+{
+    "type": 1,
+    "label": "Education Video",
+    "url": "https://youtu.be/RTj7_HMCBeI?si=vsBJ6F_-cqkhfYHC",
+    "description": "Kadın okuryazarlığı, kadınların eğitim ve bilgiye erişimini artırarak toplumsal eşitliği destekler."
+}
 ```
 
 #### Döküman içerikli mödül örneği
 ```json
-       {
-            "type": 2,
-            "label": "Documents",
-            "documents": [
-                {
-                    "documentName":"egitimde-cinsiyet-esitligi",
-                    "tag": "Eğitimde Cinsiyet Eşitliği"
-                },
-                {
-                    "documentName":"kadınlar-ve-egitim-erisimi",
-                    "tag": "Kadınlar ve Eğitim Erişimi"
-                }
-            ]
+{
+    "type": 2,
+    "label": "Documents",
+    "documents": [
+        {
+            "documentName": "egitimde-cinsiyet-esitligi",
+            "tag": "Eğitimde Cinsiyet Eşitliği"
+        },
+        {
+            "documentName": "kadınlar-ve-egitim-erisimi",
+            "tag": "Kadınlar ve Eğitim Erişimi"
         }
+    ]
+}
 ```
 
