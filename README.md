@@ -1,4 +1,4 @@
-<h1>WoMoM Döküman</h1>
+<h1>WoMoM</h1>
  
 <h2>JSON içerisinde tanımlanması gereken module tipleri:</h2>
 
@@ -86,4 +86,17 @@ Sayfada modül sınırı yoktur listeye gerektiği kadar eklenebilir.
     ]
 }
 ```
+<h3>Günlük Söz</h3>
+Ana sayfada her gün farklı bir söz tanımlamak için 'quoteOfDay.json' adındaki dosyaya 'Quotes' listesinde sözlerin tanımlanması gerekmektedir.
+Listeyi baştan sona gezerek her gün yeni bir söz gösterilecektir ve liste bittiğinde başa dönecektir.
 
+
+```json
+{
+  "Quotes":[
+    "Bir annenin karnında yeşeren her hayat, dünyanın en büyük mucizesidir.",
+    "Bir annenin karnında yeşeren her hayat, dünyanın en büyük mucizesidir.2",
+    "Bir annenin karnında yeşeren her hayat, dünyanın en büyük mucizesidir.3"
+  ]
+}
+```
