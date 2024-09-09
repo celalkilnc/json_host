@@ -86,7 +86,7 @@ Sayfada modül sınırı yoktur listeye gerektiği kadar eklenebilir.
     ]
 }
 ```
-<h3>Günlük Söz</h3>
+<h2>Günlük Söz</h2>
 Ana sayfada her gün farklı bir söz tanımlamak için 'quoteOfDay.json' adındaki dosyaya 'Quotes' listesinde sözlerin tanımlanması gerekmektedir.
 Listeyi baştan sona gezerek her gün yeni bir söz gösterilecektir ve liste bittiğinde başa dönecektir.
 
