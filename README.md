@@ -86,10 +86,29 @@ Sayfada modül sınırı yoktur listeye gerektiği kadar eklenebilir.
     ]
 }
 ```
+<h2>Döküman Modülü Dosyası</h2>
+Döküman dosyaları için "Döküman içerikli mdül örneği" alanındaki örnekte belirtilen 'documentName' alanıyla aynı olacak şekilde ayrı JSON dosyaları oluşturulur.
+Tanımlanan JSON içeriğinde dosyanın ismi ve liste tanımlanır. Liste, 'text' isminde olmalıdır ve listenin her bir öğesi dökümanın her bir paragrafına eşdeğerdir.
+
+Aşağıda 'egitimde-cinsiyet-esitligi' dosyası örnek olarak verilmiştir
+
+```json
+{
+    "documentName": "Eğitimde cinsiyet eşitliği",
+    "text": [
+        "Eğitimde cinsiyet eşitliği, bireylerin cinsiyeti ne olursa olsun eşit fırsatlara sahip olması anlamına gelir. Bu, hem erkekler hem de kadınlar için eğitimde fırsat eşitliğini sağlamak ve cinsiyet tabanlı ayrımcılığı ortadan kaldırmak amacıyla atılacak adımları içerir. Eğitimde cinsiyet eşitliği sağlamak, bireylerin potansiyellerini en üst düzeye çıkarmalarını ve toplumsal eşitliği teşvik etmelerini destekler. İşte eğitimde cinsiyet eşitliği ile ilgili bazı önemli noktalar:",
+        "Erişim ve Katılım: Eğitimde cinsiyet eşitliği, hem kız hem de erkek çocukların eğitim fırsatlarına eşit erişimlerini sağlamayı içerir. Bu, tüm çocukların, cinsiyeti ne olursa olsun, eğitim sistemine dahil olmalarını ve eğitimden yararlanmalarını güvence altına alır.",
+        "Müfredat ve Öğretim: Cinsiyet eşitliğini destekleyen bir müfredat, hem erkeklerin hem de kadınların başarılarını ve katkılarını vurgular. Öğretim materyallerinin cinsiyet kalıpyargılarını içermemesi ve çeşitli cinsiyet rollerini teşvik etmeyen bir dil kullanılması önemlidir.",
+        "Rol Modeli ve Mentorluk: Öğrencilere güçlü rol modeller sunmak, özellikle kadın öğrenciler için önemlidir. Kadın öğretmenler ve yöneticiler, kız çocuklarının eğitim ve kariyer hedeflerine ulaşmalarını teşvik edebilir. Aynı şekilde, erkek çocuklar için de olumlu rol modeller sunulmalıdır.",
+        "Ayrımcılığın Önlenmesi: Eğitim kurumları, cinsiyet temelli ayrımcılığı engellemek için politika ve uygulamalar geliştirmelidir. Ayrımcılığın önlenmesi, cinsiyete dayalı şiddet ve tacizle mücadele, adil ve eşit bir eğitim ortamının oluşturulmasında kritik rol oynar.",
+        "Eğitim Politikalarda Cinsiyet Eşitliği: Eğitim politikaları ve düzenlemeleri, cinsiyet eşitliğini teşvik etmek ve cinsiyete dayalı engelleri ortadan kaldırmak için tasarlanmalıdır. Bu, burs ve destek programları, cinsiyet eşitliği eğitimi ve cinsiyet dengesizliğini azaltma stratejilerini içerebilir."
+    ]
+}
+```
+
 <h2>Günlük Söz</h2>
 Ana sayfada her gün farklı bir söz tanımlamak için 'quoteOfDay.json' adındaki dosyaya 'Quotes' listesinde sözlerin tanımlanması gerekmektedir.
 Listeyi baştan sona gezerek her gün yeni bir söz gösterilecektir ve liste bittiğinde başa dönecektir.
-
 
 ```json
 {
