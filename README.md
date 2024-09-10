@@ -17,8 +17,18 @@ Her bir modül içerisine, yönlendirileceği detay sayfasının dosya ismi Id o
 ```json
 {
     "modules": [
-        { "image": "https://celalkilnc.github.io/json_host/media/grey.jpg", "tag": "Kadın Okuryazarlığı", "text": "Kadın okuryazarlığı, toplumun ilerlemesi için temel bir güçtür.", "id": "1" },
-        { "image": "https://celalkilnc.github.io/json_host/", "tag": "test", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "id": "2" }, 
+        {
+            "image": "https://celalkilnc.github.io/json_host/media/grey.jpg",
+            "tag": "Kadın Okuryazarlığı",
+            "text": "Kadın okuryazarlığı, toplumun ilerlemesi için temel bir güçtür.",
+            "id": "1"
+        },
+        {
+            "image": "https://celalkilnc.github.io/json_host/",
+            "tag": "test",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "id": "2"
+        }
     ]
 }
 ```
