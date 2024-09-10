@@ -33,7 +33,7 @@ Her bir modül içerisine, yönlendirileceği detay sayfasının dosya ismi Id o
 }
 ```
  
-#### Modül içeriği
+### Modül içeriği
 
 'moduleDetail.json' içerisinde tanımlanan her bir modülün id'si ile oluşan örnek JSON dosyası aşağıdaki gibidir. Modüllün türüne göre yukarıda belirtilen 'type' değeri verilmelidir.
 Sayfada modül sınırı yoktur listeye gerektiği kadar eklenebilir.
