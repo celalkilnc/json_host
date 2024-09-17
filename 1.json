@@ -29,7 +29,7 @@
         },
         {
             "type":3,
-            "label":"Survey Questions"
+            "label":"Survey Questions",
             "surweys":[
                 {
                     "id":1,
