@@ -38,6 +38,10 @@
                 {
                     "id":2,
                     "question":"Annelik kavramını açıklar mısınız?"
+                },
+                {
+                    "id":3,
+                    "question":"Bir annenin sorumlulukları nelerdir?"
                 }
             ]
         }
